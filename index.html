@@ -5,108 +5,165 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Lernantino // Web Developer</title>
+  <title>Kwannie Ng // Web Developer</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/4a1285ac22.js" crossorigin="anonymous"></script>
   <link href="css/style.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
-   <header class="header">
-    <h1>Kwannie NG</h1>
-    <nav>
-      <ul>
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#project">My Project</a></li>
-        <li><a href="#contact">Contact Me</a></li>
-      </ul>
-    </nav>
-  </header> 
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">Kwannie NG</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-  
-  <!-- hero banner -->
-  <section class="hero-banner">
-    <div>
-      <h2>Passionate Front-end Developer</h2>
-    </div>
-  </section>
-
-  <main class="page-wrapper">
-    <!-- about me -->
-    <section class="page-section" id="about">
-      <h2>About Me</h2>
-      <div class="about-content">
-        <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-        </p>
-
-        <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-        </p>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#about">About Me<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#project">My Project</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact Me</a>
+          </li>
+        </ul>
       </div>
-    </section>
+    </nav>
 
-    <!-- portfolio container -->
-    <section class="page-section" id="project">
-      <h2>My Projects</h2>
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4">Welcome to my portfolio!</h1>
+      <p class="lead">My name is Kwannie. This website showcases my project and my skill set as well as my contact info.</p>
+    </div>
+  </div>
 
-      <div id="projects">
-
-        <a class="project-1" href="https://kwannieng.github.io/prework-study-guide/" target="_blank">
-          <div class="main-text">
+  <section class="container">
+    <div class="row d-flex justify-content-around mt-8">      
+      <h2 class="my-4" id="project">My Projects</h2>
+    </div>
+    
+    <dvi class="row justify-content-between text-center mt-8">
+      
+      <div class="col-lg-5 mx-auto mb-4">
+        <div class="card">
+          <img class="card-img-top" src="images/02-portfolio-1.jpg"/>
+          <div class="card-body">
             <h3>Project 1</h3>
-            <p>
+            <p class="card-text">
               HTML/CSS/JavaScript
             </p>
           </div>
-        </a>
+          <div class="card-footer">
+          <a href="https://kwannieng.github.io/prework-study-guide/" class="btn btn-primary">Find out more!</a>
+          </div>
+        </div>
+      </div>
 
-        <a class="project-2" href="https://kwannieng.github.io/module-1-challenge/" target="_blank">
-          <div class="main-text">
+      <div class="col-lg-5 mx-auto mb-4">
+        <div class="card">
+          <img class="card-img-top" src="images/02-portfolio-2.jpg"/>
+          <div class="card-body">
             <h3>Project 2</h3>
-            <p>
-              HTML/CSS
+            <p class="card-text">
+              HTML/CSS/JavaScript
             </p>
           </div>
-        </a>
-      
-        <a class="project-3" href="https://kwannieng.github.io/module-1-challenge/" target="_blank">
-          <div class="main-text">
+          <div class="card-footer">
+          <a href="https://kwannieng.github.io/prework-study-guide/" class="btn btn-primary">Find out more!</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-5 mx-auto mb-4">
+        <div class="card">
+          <img class="card-img-top" src="images/02-portfolio-3.jpg"/>
+          <div class="card-body">
             <h3>Project 3</h3>
-            <p>
-              HTML/CSS
+            <p class="card-text">
+              HTML/CSS/JavaScript
             </p>
           </div>
-        </a>
+          <div class="card-footer">
+          <a href="https://kwannieng.github.io/prework-study-guide/" class="btn btn-primary">Find out more!</a>
+          </div>
+        </div>
+      </div>
 
-        <a class="project-4" href="https://kwannieng.github.io/module-1-challenge/" target="_blank">
-          <div class="main-text">
+      <div class="col-lg-5 mx-auto mb-4">
+        <div class="card">
+          <img class="card-img-top" src="images/02-portfolio-4.jpg"/>
+          <div class="card-body">
             <h3>Project 4</h3>
-            <p>
-              HTML/CSS
+            <p class="card-text">
+              HTML/CSS/JavaScript
             </p>
           </div>
-        </a>
-
-        <a class="project-5" href="https://kwannieng.github.io/module-1-challenge/" target="_blank">
-          <div class="main-text">
-            <h3>Project 5</h3>
-            <p>
-              HTML/CSS
-            </p>
+          <div class="card-footer">
+          <a href="https://kwannieng.github.io/module-1-challenge/" class="btn btn-primary">Find out more!</a>
           </div>
-        </a>      
+        </div>
       </div>
-    </section>
+  </section>
 
-    <!-- contact -->
-    <section class="page-section" id="contact">
-      <h2>Contact Me</h2>
-      <div class="contact-info">
-        <a href="https://github.com/kwannieng" target="_blank">GitHub</a>
-        <a href="https://uk.linkedin.com/" target="_blank">LinkedIn</a>
-        <a href="mailto:kwannienng@gmail.com">Email</a>
+  <section class="connect">
+    <div class="container bg-secondary">
+      <div class="row align-items-center">
+        <div class="col-lg-5 order-lg-2">
+          <img class="img-fluid rounded-circle" src="images/2022020.png" />       
+        </div>
+        
+        <div class="col-lg-7 text-white order-lg-1">
+          <div class="p-5">
+            <h2 class="display-4" id="about">About Me</h2>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </p>
+            <a href="" class="btn btn-outline-light">
+            <i class="fa-solid fa-download"></i>
+              Download my Resume
+            </a>
+          </div>
+        </div>
+    </div>
+  </section>
+
+  <footer class="footer bg-light" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5 h-100 text-center mx-auto">
+          <ul class="list-inline mb-0">
+
+           <li class="list-inline-item mr-3">
+              <a href="https://www.linkedin.com/" target="_blank">
+                <i class="fab fa-linkedin fa-3x fa-fw"></i>
+              </a>
+            </li>
+            
+            <li class="list-inline-item mr-3">
+              <a href="https://twitter.com/" target="_blank">
+                <i class="fab fa-twitter fa-3x fa-fw"></i>
+              </a>
+            </li>
+
+            <li class="list-inline-item mr-3">
+              <a href="https://github.com/kwannieng" target="_blank">
+                <i class="fab fa-github fa-3x fa-fw"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </section>
-  </main>
+    </div>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
 </body>
 
 </html>
